@@ -1,0 +1,6 @@
+std = "roblox"
+
+[lints]
+# The codebase uses explicit `self` parameters and shadowing in a few places
+# that are intentional; keep defaults otherwise and tighten after migration.
+shadowing = "allow"

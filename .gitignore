@@ -1,0 +1,19 @@
+# Build outputs -- reproducible from the repo via `rojo build`
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+!src/**/*.rbxm
+!src/**/*.rbxmx
+
+# Rojo sourcemap (regenerate with `rojo sourcemap`)
+sourcemap.json
+
+# Tooling / editor
+roblox.yml
+roblox.d.luau
+globalTypes.d.luau
+.vscode/
+.idea/
+.DS_Store
+*.swp
